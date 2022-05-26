@@ -1,0 +1,33 @@
+.cuerpo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(31, 30, 30);
+}
+.cuerpo ul{
+    display: flex;
+    padding: 0; margin: -22px;
+    width: 400%;
+    animation: cambio 8s infinite alternate linear;
+}
+.cuerpo:nth-child(2) ul{
+    animation-timing-function: steps(3);
+}
+.cuerpo li{
+    width: 30%; height: 10%;
+    list-style: none;
+}
+.cuerpo img{
+    width: 90%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{ margin-left: -6%;}
+    25%{margin-left: -6%;}
+
+    30%{margin-left: -130%;}
+    50% {margin-left: -130%;}
+
+    55%{margin-left: -250%;}
+    100%{margin-left: -250%;}
+}
