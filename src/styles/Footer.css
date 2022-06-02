@@ -1,0 +1,29 @@
+footer{
+    
+    display:flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 3rem;
+    background-color: var(--verde);
+    color:var(--textColor);
+    text-align: center;}
+    ul {
+        display: flex;
+        grid-gap: 35px;
+        justify-items: center;
+        margin: auto;
+        list-style: none;
+      }
+      
+      li {
+        color: white;
+        text-decoration: none;  
+        align-self: center;
+        transition: all 400ms ease;
+      }
+      
+      
+     li:hover{
+        transform: translateY(-20%);
+     }
+

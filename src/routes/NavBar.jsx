@@ -1,6 +1,7 @@
 import {React,useRef} from 'react'
 import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import logo from '../styles/pet-house.png'
 import {Contactanos} from '../components/fContactanos/Contactanos.jsx'
 import {DonaVolunt} from '../components/fDonaVolunt/DonaVolunt.jsx'
 import {Home} from '../components/fHome/Home.jsx'
@@ -17,7 +18,8 @@ function NavBar() {
 
     <BrowserRouter>
     <header>
-        <h3>PATITAS AMIGAS</h3>
+        <img src={logo} alt='logo'></img>
+        <h2> PATITAS AMIGAS</h2>
         <nav ref={navRef}>
             <ul>
                 <li><NavLink to='/'>

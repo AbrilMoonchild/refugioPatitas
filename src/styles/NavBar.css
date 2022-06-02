@@ -8,10 +8,15 @@ header{
     color:var(--textColor);
     text-align: center;
 }
+
 nav{
     display:flex;
     align-items: center;
     
+}
+header img{
+    
+    width: 60px;
 }
 nav ul {
     align-items: center;
@@ -42,7 +47,7 @@ header .nav-btn{
     color:var(--textColor);
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 1024px){
@@ -83,7 +88,7 @@ header .nav-btn{
       right:2rem;  
     }
     nav li a{
-        font-size:1.5rem;
+        font-size:2rem;
         
     }
 }
