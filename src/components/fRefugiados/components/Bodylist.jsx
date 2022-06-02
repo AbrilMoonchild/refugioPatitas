@@ -1,16 +1,16 @@
 import React from 'react'
 import "../styles/Bodylist.css"
 import { Cards } from './Cards'
-import im1 from "../images/buff.jpg"
-import im2 from "../images/chanquete.jpg"
-import im3 from "../images/Dumbo.jpg"
-import im4 from "../images/Dylan.jpg"
-import im5 from "../images/gordon.jpg"
-import im6 from "../images/paw.jpg"
-import im7 from "../images/rex.jpg"
-import im8 from "../images/rumba.jpg"
-import im9 from "../images/Socrates.jpg"
-import im10 from "../images/Thor.jpg"
+import im1 from "../perros/buff.jpg"
+import im2 from "../perros/chanquete.jpg"
+import im3 from "../perros/Dumbo.jpg"
+import im4 from "../perros/Dylan.jpg"
+import im5 from "../perros/gordon.jpg"
+import im6 from "../perros/paw.jpg"
+import im7 from "../perros/rex.jpg"
+import im8 from "../perros/rumba.jpg"
+import im9 from "../perros/Socrates.jpg"
+import im10 from "../perros/Thor.jpg"
 
 const cards = [
     {
