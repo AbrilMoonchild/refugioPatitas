@@ -1,0 +1,28 @@
+.cardq{
+    display:flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.cardq img {
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+.textQ {
+    font-size: 26px;
+    
+}
+
+.textQ h1{
+    color: var(--celeste);
+}
+
+.textQ div{
+    background-color: var(--celesteClaro);
+    color: var(--textColor);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
