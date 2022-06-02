@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.cards{
+    display: flex;
+    width: 90%; height: 30%;
+    margin: 5%;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.cards:hover{
+    animation: ani 2s infinite;
+}
+
+@keyframes ani{
+    0%{transform: scale(1.1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.1);}
+}
+
+.cards span{
+    display: flex;
+}
+
+.imagenes{
+    width: 40%; height: 100%;
+    margin: 10px;
+}
+
+.imagenes img{
+    max-width: 110%;
+    border-radius: 20px;
+}
+
+.informacion{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    display: grid;
+    align-content: center;
+    font-size: 15px;
+    color: brown;
+    margin: 0;
+    padding: 0 5px;
+}
