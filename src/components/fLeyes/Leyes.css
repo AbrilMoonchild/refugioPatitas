@@ -1,10 +1,10 @@
-header{
+.page-title{
     display:flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: rgb(130,153,1);
+    background-color: var(--celeste);
     
     
 }
