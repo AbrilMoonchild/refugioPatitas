@@ -10,9 +10,7 @@ function Leyes() {
         <div className='row'>
             <h1 className='page-title-center'>Leyes y Normas</h1>
             <div className='back-home'>
-              <a href='../fHome/Home.jsx'>
-                "Inicio"
-              </a>
+              
             </div>
         </div>
       </div>
