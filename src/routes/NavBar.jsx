@@ -5,7 +5,7 @@ import {Contactanos} from '../components/fContactanos/Contactanos.jsx'
 import {DonaVolunt} from '../components/fDonaVolunt/DonaVolunt.jsx'
 import {Home} from '../components/fHome/Home.jsx'
 import {Leyes} from '../components/fLeyes/Leyes.jsx'
-import {Refugiados} from '../components/fRefugiados/Refugiados.jsx'
+import { Bodylist } from '../components/fRefugiados/components/Bodylist.jsx'
 import {ReqAdop} from '../components/fReqAdop/ReqAdop.jsx'
 import '../styles/NavBar.css'
 function NavBar() {
@@ -56,7 +56,7 @@ function NavBar() {
         <Routes>
             <Route path='reqadop' element={<ReqAdop></ReqAdop>}></Route>
             <Route path='donacionvoluntariado' element={<DonaVolunt></DonaVolunt>}></Route>
-            <Route path='refugiados' element={<Refugiados></Refugiados>}></Route>
+            <Route path='refugiados' element={ <Bodylist/> }></Route>
             <Route path='leyesynormas' element={<Leyes></Leyes>}></Route>
             <Route path='contactanos' element={<Contactanos></Contactanos>}></Route>
             <Route path='home' element={<Home></Home>}></Route>
