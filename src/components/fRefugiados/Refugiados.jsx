@@ -2,7 +2,7 @@ import React from 'react'
 
 function Refugiados() {
   return (
-    <div>Refugiados, cachorro</div>
+    <div>Refugiados, cachorro, gatos</div>
   )
 }
 
