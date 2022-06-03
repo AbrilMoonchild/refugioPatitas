@@ -1,3 +1,4 @@
+import React from 'react'
 import {NavBar} from './routes/NavBar.jsx'
 import {Footer} from './routes/Footer.jsx'
 import './App.css';

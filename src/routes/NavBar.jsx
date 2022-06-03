@@ -1,4 +1,5 @@
-import {React,useRef} from 'react'
+import React from 'react'
+import {useRef} from 'react'
 import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../styles/pet-house.png'

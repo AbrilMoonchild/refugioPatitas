@@ -5,25 +5,33 @@ function Leyes() {
   return (
     <>
     
-    <header className='page-title'>
+    <div className='page-title'>
       <div className='container'>
-        <div className='row'>
-            <h1 className='page-title-center'>Leyes y Normas</h1>
-            
-        </div>
+        
+         <h1 className='page-title-center'>Leyes y Normas</h1>
+        
       </div>
-    </header>
+    </div>
     
     
     <div className='leyes-text'>
-      <div className='cpe'>
-        <p>CPE artículo 302 Inc. 5 (año 2009)</p>
-        <p>Son competencias exclusivas de los gobiernos municipales autónomos, en su jurisdicción Inc. 5 “Preservar, conservar y contribuir a la protección del medio ambiente y recursos naturales, fauna silvestre y animales domésticos.</p>
+      <div className='container-ley'>
+        <div className='title-ley'>
+          <p>CPE artículo 302 Inc. 5 (año 2009)</p>
+        </div>
+        <div className='text-ley'>
+          <p>Son competencias exclusivas de los gobiernos municipales autónomos, en su jurisdicción Inc. 5 “Preservar, conservar y contribuir a la protección del medio ambiente y recursos naturales, fauna silvestre y animales domésticos.</p>
+        </div>
       </div>
-      <div className='dubas'>
-        <p>Bolivia se adhiere a la DUBA (año 2010)</p>
-        <p>El año 2010, Bolivia, mediante cancillería, se adhiere a la DUBA (Declaración Universal del Bienestar Animal)</p>
+      <div className='container-ley'>
+        <div className='title-ley'>
+          <p>Bolivia se adhiere a la DUBA (año 2010)</p>
+        </div>
+        <div className='text-ley'>
+          <p>El año 2010, Bolivia, mediante cancillería, se adhiere a la DUBA (Declaración Universal del Bienestar Animal)</p>
+        </div>
       </div>
+      
       
       <p>01 DE JUNIO DE 2015.- LEY 700 PARA LA DEFENSA DE LOS ANIMALES CONTRA ACTOS DE CRUELDAD Y MALTRATO</p>
       <p>LEY Nº 553 “PERROS PELIGROSOS”</p>
@@ -41,7 +49,8 @@ function Leyes() {
         <p>El que incite, promueva, capture y/o comercialice el producto de la cacería, tenencia, acopio, transporte de especies animales y vegetales, o de sus derivados sin autorización o que estén declaradas en veda o reserva, poniendo en riesgo de extinción a las mismas, sufrirá la pena de privación de libertad de hasta dos años perdiendo las especies, las que serán devueltas a su hábitat natural, si fuere aconsejable, más la multa equivalente al cien por ciento del valor de estas.</p>
 
       </div>
-    </div><div className='leyes-pdf'> </div></>
+    </div><div className='leyes-pdf'> </div>
+    </>
   )
 }
 
