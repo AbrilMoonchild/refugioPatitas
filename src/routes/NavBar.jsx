@@ -1,4 +1,5 @@
-import {React,useRef} from 'react'
+import * as React from 'react'
+import {useRef} from 'react'
 import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../styles/pet-house.png'
@@ -6,7 +7,7 @@ import {Contactanos} from '../components/fContactanos/Contactanos.jsx'
 import {DonaVolunt} from '../components/fDonaVolunt/DonaVolunt.jsx'
 import {Home} from '../components/fHome/Home.jsx'
 import {Leyes} from '../components/fLeyes/Leyes.jsx'
-import {Refugiados} from '../components/fRefugiados/Refugiados.jsx'
+import { Bodylist } from '../components/fRefugiados/components/Bodylist.jsx'
 import {ReqAdop} from '../components/fReqAdop/ReqAdop.jsx'
 import '../styles/NavBar.css'
 function NavBar() {
@@ -18,12 +19,13 @@ function NavBar() {
 
     <BrowserRouter>
     <header>
-        <img src={logo} alt='logo'></img>
-        <h2> PATITAS AMIGAS</h2>
+        
+    <img src={logo} alt='logo'></img>
         <nav ref={navRef}>
             <ul>
                 <li><NavLink to='/'>
-                        Home
+                
+                <h2>PATITAS AMIGAS</h2>
                     </NavLink></li>
 
                 <li><NavLink to='/reqadop'>
@@ -58,7 +60,7 @@ function NavBar() {
         <Routes>
             <Route path='reqadop' element={<ReqAdop></ReqAdop>}></Route>
             <Route path='donacionvoluntariado' element={<DonaVolunt></DonaVolunt>}></Route>
-            <Route path='refugiados' element={<Refugiados></Refugiados>}></Route>
+            <Route path='refugiados' element={ <Bodylist/> }></Route>
             <Route path='leyesynormas' element={<Leyes></Leyes>}></Route>
             <Route path='contactanos' element={<Contactanos></Contactanos>}></Route>
             <Route path='home' element={<Home></Home>}></Route>
