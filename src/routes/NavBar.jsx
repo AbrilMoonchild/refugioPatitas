@@ -1,4 +1,5 @@
-import {React,useRef} from 'react'
+import * as React from 'react'
+import {useRef} from 'react'
 import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../styles/pet-house.png'
@@ -18,12 +19,13 @@ function NavBar() {
 
     <BrowserRouter>
     <header>
-        <img src={logo} alt='logo'></img>
-        <h2> PATITAS AMIGAS</h2>
+        
+    <img src={logo} alt='logo'></img>
         <nav ref={navRef}>
             <ul>
                 <li><NavLink to='/'>
-                        Home
+                
+                <h2>PATITAS AMIGAS</h2>
                     </NavLink></li>
 
                 <li><NavLink to='/reqadop'>

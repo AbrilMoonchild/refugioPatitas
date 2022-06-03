@@ -6,7 +6,11 @@ footer{
     padding: 0 3rem;
     background-color: var(--verde);
     color:var(--textColor);
-    text-align: center;}
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
     ul {
         display: flex;
         grid-gap: 35px;
