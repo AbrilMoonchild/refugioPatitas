@@ -5,7 +5,7 @@
     display: flex;
     width: 90%; height: 30%;
     margin: 5%;
-    background-color: aliceblue;
+    background-color: rgb(208, 228, 244);
     border-radius: 15px;
 }
 
@@ -24,12 +24,12 @@
 }
 
 .imagenes{
-    width: 40%; height: 100%;
+    width: 30%; height: 100%;
     margin: 10px;
 }
 
 .imagenes img{
-    max-width: 110%;
+    max-width: 90%;
     border-radius: 20px;
 }
 
@@ -38,8 +38,9 @@
     font-weight: bolder;
     display: grid;
     align-content: center;
-    font-size: 15px;
+    font-size: 19px;
     color: brown;
+    border-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0 5px;
 }
