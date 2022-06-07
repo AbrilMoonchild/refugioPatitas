@@ -1,15 +1,22 @@
 import React from 'react'
-import {CardQ} from './componentsHome/CardQ'
-import {CardM} from './componentsHome/CardM'
-import {CardP} from './componentsHome/CardP'
-import {CardV} from './componentsHome/CardV'
+import { Slider } from './componentsHome/Slider'
+import { CardsContainer } from './componentsHome/CardsContainer'
+import { Accion } from './componentsHome/Accion'
+import './stylesHome/Home.css'
+
 function Home() {
+ 
+  
   return (
-    <div>
-    <CardQ></CardQ>
-    <CardM></CardM>
-    <CardP></CardP>
-    <CardV></CardV>
+    <div className='home'>
+      
+      
+      <Slider></Slider>
+      <div className='title'>ACERCA DE NOSOTROS</div>
+      <CardsContainer></CardsContainer>
+      <div className='title'>¡Anímate a la acción!</div>
+      <Accion></Accion>
+      
     </div>
     
   )

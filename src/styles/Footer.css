@@ -3,7 +3,7 @@ footer{
     display:flex;
     align-items: center;
     height: 90px;
-    padding: 0 3rem;
+    padding: 0 4rem;
     background-color: var(--verde);
     color:var(--textColor);
     text-align: center;

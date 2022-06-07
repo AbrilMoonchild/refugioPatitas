@@ -1,22 +1,30 @@
 .cardq{
     display:flex;
     flex-direction: column;
-    padding: 10%;
-}
+    padding: 3%;
 
+    max-width: 500px;
+    
+}
+@media  screen and (max-width:1440px) {
+    .cardq{
+        max-width: 350px;
+    }
+}
 .cardq img {
-    width: 30%;
-    height: 30%;
+    width: 160px;
+    height: 160px;
     align-self: center;
 }
 
 .textQ {
-    font-size: 26px;
+    font-size: 20px;
     
 }
 
 .textQ h1{
     color: var(--celeste);
+    font-size:  30px;
 }
 
 .textQ div{
