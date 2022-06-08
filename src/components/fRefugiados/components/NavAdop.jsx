@@ -1,11 +1,12 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
+import '../styles/NavAdop.css'
 
 function NavAdop() {
   return (
     <div className='menu-mascotas'>
         <ul>
-            <li><NavLink to='/perritos'>
+            <li className="opcion"><NavLink to='/perritos'>
                     Perritos
                 </NavLink></li>
             <li><NavLink to='/gatitos'>

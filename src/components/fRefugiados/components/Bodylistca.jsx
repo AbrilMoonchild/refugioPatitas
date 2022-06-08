@@ -119,7 +119,6 @@ function Bodylistca(props) {
             }
         </div>
         </div>
-        
     )
 }
 
