@@ -14,6 +14,9 @@ function Cards({img, raza, color, edad, tamano, sexo}) {
                 <span>Tamaño: {tamano} </span>
                 <span>Sexo: {sexo} </span>
             </div>
+            <div className='boton-card'>
+                <span>Adopta Aqui</span>
+            </div>
         </div>
     )
 }
