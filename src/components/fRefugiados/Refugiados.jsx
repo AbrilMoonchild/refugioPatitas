@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
-import { Bodylistca } from './components/Bodylistca'
+import { Bodylist } from './components/Bodylist'
 
 function Refugiados() {
   return (
@@ -10,7 +10,7 @@ function Refugiados() {
       </NavLink>
 
       <Routes>
-        <Route path='Animales' element={ <Bodylistca/> } />
+        <Route path='Animales' element={ <Bodylist/> } />
       </Routes>
     </BrowserRouter>
   )
