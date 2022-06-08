@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Contactanos} from '../components/fContactanos/Contactanos.jsx'
 import {DonaVolunt} from '../components/fDonaVolunt/DonaVolunt.jsx'
+import {Refugiados} from '../components/fRefugiados/Refugiados.jsx'
 import {Home} from '../components/fHome/Home.jsx'
 import {Leyes} from '../components/fLeyes/Leyes.jsx'
 import { Bodylistpe } from '../components/fRefugiados/components/Bodylistpe.jsx'
@@ -34,6 +35,10 @@ function NavBar() {
                     Donacion y Voluntariado
                     </NavLink></li>
 
+                <li><NavLink to='/Refugiados'>
+                    Refugiados
+                    </NavLink></li>
+                
                 <li><NavLink to='/leyesynormas'>
                     Leyes y Normas
                     </NavLink></li>
@@ -70,6 +75,7 @@ function NavBar() {
         <Routes>
             <Route path='reqadop' element={<ReqAdop></ReqAdop>}></Route>
             <Route path='donacionvoluntariado' element={<DonaVolunt></DonaVolunt>}></Route>
+            <Route path='Refugiados' element={<Refugiados></Refugiados>}></Route>
             <Route path='perritos' element={ <Bodylistpe/> }></Route>
             <Route path='gatitos' element={ <Bodylistca/> }></Route>
             <Route path='otros' element={ <Bodylistot/> }></Route>
