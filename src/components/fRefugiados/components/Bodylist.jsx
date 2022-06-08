@@ -260,13 +260,14 @@ const cards = [
 
 function Bodylist(props) {
     return (
-        <div className='cont-total'> 
+        <div className='cont-total'>
             {
                 cards.map(card => (
                     <Cards img={card.img} raza={card.raza} color={card.color} edad={card.edad} tamano={card.tamano} sexo={card.sexo} />
                 ))
             }
         </div>
+        
     )
 }
 

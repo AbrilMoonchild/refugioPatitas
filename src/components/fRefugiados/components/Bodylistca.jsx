@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Bodylist.css"
 import { Cards } from './Cards'
+import { NavAdop } from "./NavAdop";
 import imcat1 from "../gatos/arnold.jpg"
 import imcat2 from "../gatos/babe.jpg"
 import imcat3 from "../gatos/baileys.jpg"
@@ -108,13 +109,17 @@ const cards = [
 
 function Bodylistca(props) {
     return (
-        <div className='cont-total'> 
+        <div className='contenido'>
+            <NavAdop></NavAdop>
+            <div className='cont-total'> 
             {
                 cards.map(card => (
                     <Cards img={card.img} raza={card.raza} color={card.color} edad={card.edad} tamano={card.tamano} sexo={card.sexo} />
                 ))
             }
         </div>
+        </div>
+        
     )
 }
 

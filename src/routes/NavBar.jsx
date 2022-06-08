@@ -3,10 +3,10 @@ import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Contactanos} from '../components/fContactanos/Contactanos.jsx'
 import {DonaVolunt} from '../components/fDonaVolunt/DonaVolunt.jsx'
-import {Refugiados} from '../components/fRefugiados/Refugiados.jsx'
 import {Home} from '../components/fHome/Home.jsx'
 import {Leyes} from '../components/fLeyes/Leyes.jsx'
 import { Bodylistpe } from '../components/fRefugiados/components/Bodylistpe.jsx'
+import { Refugiados } from '../components/fRefugiados/Refugiados.jsx'
 import { Bodylistca } from '../components/fRefugiados/components/Bodylistca.jsx'
 import { Bodylistot } from '../components/fRefugiados/components/Bodylistot.jsx'
 import {ReqAdop} from '../components/fReqAdop/ReqAdop.jsx'
@@ -58,24 +58,12 @@ function NavBar() {
         </button>
     </header>
 
-    <div className='menu-mascotas'>
-        <ul>
-            <li><NavLink to='/perritos'>
-                    Perritos
-                </NavLink></li>
-            <li><NavLink to='/gatitos'>
-                    Gatitos
-            </NavLink></li>
-            <li><NavLink to='/otros'>
-                    Otros
-                </NavLink></li>
-        </ul>
-    </div>
+    
 
         <Routes>
             <Route path='reqadop' element={<ReqAdop></ReqAdop>}></Route>
             <Route path='donacionvoluntariado' element={<DonaVolunt></DonaVolunt>}></Route>
-            <Route path='Refugiados' element={<Refugiados></Refugiados>}></Route>
+            <Route path='Refugiados' element={<Refugiados/>}></Route>
             <Route path='perritos' element={ <Bodylistpe/> }></Route>
             <Route path='gatitos' element={ <Bodylistca/> }></Route>
             <Route path='otros' element={ <Bodylistot/> }></Route>

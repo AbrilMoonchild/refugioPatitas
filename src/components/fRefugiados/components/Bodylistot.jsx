@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Bodylist.css"
 import { Cards } from './Cards'
+import { NavAdop } from "./NavAdop";
 import imot1 from "../otros/cyc.jpg"
 import imot2 from "../otros/kumba.jpg"
 import imot3 from "../otros/mochilo.jpg"
@@ -12,7 +13,7 @@ const cards = [
         id:"1",
         img: imot1,
         raza: "Mapuche",
-        color: "Negro con cafe y Negro con blanco",
+        color: "Negro con cafe y N.",
         edad: "1 aÃ±o - 8 meses",
         tamano: "Medianos",
         sexo: "Machos"
@@ -21,7 +22,7 @@ const cards = [
         id:"2",
         img: imot2,
         raza: "Californiano",
-        color: "Blanco con manchas negras y cafes",
+        color: "Blanco con manchas n.",
         edad: "2 aÃ±os",
         tamano: "Grande",
         sexo: "Macho"
@@ -48,7 +49,7 @@ const cards = [
         id:"5",
         img: imot5,
         raza: "Booted Bantman",
-        color: "Blanco con manchas cafes",
+        color: "Blanco con manchas",
         edad: "9 meses",
         tamano: "Grande",
         sexo: "Macho"
@@ -57,12 +58,15 @@ const cards = [
 
 function Bodylistot(props) {
     return (
-        <div className='cont-total'> 
+        <div className='contenido'>
+            <NavAdop></NavAdop>
+            <div className='cont-total'> 
             {
                 cards.map(card => (
                     <Cards img={card.img} raza={card.raza} color={card.color} edad={card.edad} tamano={card.tamano} sexo={card.sexo} />
                 ))
             }
+        </div>
         </div>
     )
 }

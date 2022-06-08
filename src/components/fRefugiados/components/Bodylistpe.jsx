@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/Bodylist.css"
 import { Cards } from './Cards'
+import { NavAdop } from "./NavAdop";
 import im1 from "../perros/buff.jpg"
 import im2 from "../perros/chanquete.jpg"
 import im3 from "../perros/Dumbo.jpg"
@@ -107,12 +108,15 @@ const cards = [
 
 function Bodylistpe(props) {
     return (
-        <div className='cont-total'> 
+        <div className='contenido'>
+            <NavAdop></NavAdop>
+            <div className='cont-total'> 
             {
                 cards.map(card => (
                     <Cards img={card.img} raza={card.raza} color={card.color} edad={card.edad} tamano={card.tamano} sexo={card.sexo} />
                 ))
             }
+        </div>
         </div>
     )
 }
