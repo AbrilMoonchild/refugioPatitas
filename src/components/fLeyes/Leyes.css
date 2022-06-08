@@ -1,0 +1,36 @@
+.page-title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--celeste);
+    
+    
+}
+
+header div div h1{
+    font-size: 24px;
+    color:var(--textColor);
+    font-weight: 900;
+    text-align: center;
+}
+
+header div div div a{
+    font-size: 16px;
+    color:var(--textColor);
+    font-weight: 400;
+    text-align: center;
+}
+
+.cpe> p:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.cpe> p:nth-child(2){
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgray;
+}

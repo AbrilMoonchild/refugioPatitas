@@ -1,0 +1,36 @@
+.cardq{
+    display:flex;
+    flex-direction: column;
+    padding: 3%;
+
+    max-width: 500px;
+    
+}
+@media  screen and (max-width:1440px) {
+    .cardq{
+        max-width: 350px;
+    }
+}
+.cardq img {
+    width: 160px;
+    height: 160px;
+    align-self: center;
+}
+
+.textQ {
+    font-size: 20px;
+    
+}
+
+.textQ h1{
+    color: var(--celeste);
+    font-size:  30px;
+}
+
+.textQ div{
+    background-color: var(--celesteClaro);
+    color: var(--textColor);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}

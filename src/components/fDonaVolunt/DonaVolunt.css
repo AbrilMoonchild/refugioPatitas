@@ -1,0 +1,37 @@
+h1{
+    text-align: center;    
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.contenedor-ayuda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contenedor-ayuda div{
+    background-color: blanchedalmond;
+    margin-inline: 8px;
+    padding: 10px;
+}
+.contenedor-donacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-donacion img{
+    width: 40%;
+}
+.contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-imagen img{
+    width: 60%;
+    
+}
