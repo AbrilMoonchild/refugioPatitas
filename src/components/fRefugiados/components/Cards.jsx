@@ -15,7 +15,7 @@ function Cards({img, raza, color, edad, tamano, sexo}) {
                 <span>Sexo: {sexo} </span>
             </div>
             <div className='boton-card'>
-                <span>Adopta Aqui</span>
+                <button>Adopta Aqui</button>
             </div>
         </div>
     )

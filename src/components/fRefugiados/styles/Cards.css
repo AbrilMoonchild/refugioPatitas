@@ -7,7 +7,7 @@
     align-items: center;
     width: 240px; height: 465px;
     margin: 5%;
-    background-color: rgb(62, 188, 193);
+    background-color: rgb(53, 107, 142);
     box-shadow: 0 0 10px 1px;
 }
 
@@ -47,8 +47,14 @@
 
 .boton-card{
     width: 50%;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 254, 254);
     margin: 8%; padding: 1% 6%;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.boton-card button{
+    border: 0;
+    padding: 0 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 107, 142);
     
 }
