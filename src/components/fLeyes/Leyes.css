@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .page-title{
     display:flex;
     align-items: center;
@@ -23,16 +29,24 @@ header div h1{
 }
 
 .container-ley{
-    border: rgb(130,153,1);
+    border: var(verde);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .title-ley{
     background-color: #cbf294;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     font-size: 18px;
     font-weight: 600;
     color: black;
+}
+
+.title-ley p{
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .text-ley{
@@ -41,3 +55,53 @@ header div h1{
     color: dimgray;
 }
 
+.text-ley p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.text-ley #articulo{
+    margin-left: 12px;
+}
+
+.edicion-fecha{
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.e-f-negrilla{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.e-f-text{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.leyes-pdf{
+    display: flex;
+    flex-direction: row;
+    border: var(verde);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 12px;   
+}
+
+.pdf-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
