@@ -5,10 +5,12 @@ function Contactanos() {
   return (
     <>
     <div>
+    <div className='contenedor-titulo'>
     <h1>CONTACTOS</h1>
    
     <h2>"Nos puedes contactar por nuestras redes sociales , o visitando nuestro establecimiento"</h2>
    
+    </div>
     </div>
 
     <div className='contenedor-casa'>
