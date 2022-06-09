@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Leyes.css';
 import iconoPdf from './iconoPdf.png';
 
@@ -141,7 +141,11 @@ function Leyes() {
             <p>Ley Municipal Autonómica N° 239</p>
             <p>Gobierno Autónomo Municipal de La Paz</p>
             <p>Descarga el archivo en PDF</p>
-            <p></p>
+            <div>
+              <object data='../docsLeyes/Ley_Municipal_293-1.pdf' type='application/pdf' width='100%' height='100%'>
+              --este no sirve-
+              </object>
+            </div>
             <p></p>
           </div>
         </div>
