@@ -8,7 +8,10 @@
     width: 240px; height: 465px;
     margin: 5%;
     background-color: rgb(53, 107, 142);
-    box-shadow: 0 0 10px 1px;
+    border-color: rgb(255, 255, 255);
+    
+    border-style: solid;
+    box-shadow: 0 0 5px 1px;
 }
 
 .cards:hover{
