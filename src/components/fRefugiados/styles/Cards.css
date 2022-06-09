@@ -3,10 +3,12 @@
 
 .cards{
     display: flex;
-    width: 90%; height: 30%;
+    flex-direction: column;
+    align-items: center;
+    width: 240px; height: 465px;
     margin: 5%;
-    background-color: aliceblue;
-    border-radius: 15px;
+    background-color: rgb(53, 107, 142);
+    box-shadow: 0 0 10px 1px;
 }
 
 .cards:hover{
@@ -24,13 +26,11 @@
 }
 
 .imagenes{
-    width: 40%; height: 100%;
-    margin: 10px;
+    width: 100%;
 }
 
 .imagenes img{
-    max-width: 110%;
-    border-radius: 20px;
+    max-width: 100%;
 }
 
 .informacion{
@@ -38,8 +38,23 @@
     font-weight: bolder;
     display: grid;
     align-content: center;
-    font-size: 15px;
-    color: brown;
+    font-size: 19px;
+    color: white;
+    border-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0 5px;
+}
+
+.boton-card{
+    width: 50%;
+    border: 2px solid rgb(255, 254, 254);
+    margin: 8%; padding: 1% 6%;
+    color: rgb(0, 0, 0);
+}
+.boton-card button{
+    border: 0;
+    padding: 0 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 107, 142);
+    
 }
