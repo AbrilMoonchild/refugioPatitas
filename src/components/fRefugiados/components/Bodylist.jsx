@@ -11,6 +11,8 @@ import im7 from "../perros/rex.jpg"
 import im8 from "../perros/rumba.jpg"
 import im9 from "../perros/Socrates.jpg"
 import im10 from "../perros/Thor.jpg"
+import im11 from "../perros/merlina2.jpg"
+import im12 from "../perros/mochi.jpg"
 import imcat1 from "../gatos/arnold.jpg"
 import imcat2 from "../gatos/babe.jpg"
 import imcat3 from "../gatos/baileys.jpg"
@@ -118,6 +120,24 @@ const cards = [
         color: "Negro con blanco",
         edad: "2 años",
         tamano: "Grande",
+        sexo: "Macho"
+    },
+    {
+        id:"11",
+        img: im11,
+        raza: "Bichon Maltes",
+        color: "blanco",
+        edad: "16 años",
+        tamano: "Pequeño",
+        sexo: "Hembra"
+    },
+    {
+        id:"12",
+        img: im12,
+        raza: "Bull Terrier",
+        color: "blanco",
+        edad: "1 años",
+        tamano: "Mediano",
         sexo: "Macho"
     },
     {
