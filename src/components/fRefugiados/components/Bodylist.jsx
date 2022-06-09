@@ -70,7 +70,7 @@ const cards = [
         id:"5",
         img: im5,
         raza: "Pitbull",
-        color: "Blanco con manchas negras",
+        color: "Blanco con m. negras",
         edad: "3 meses",
         tamano: "Pequeño",
         sexo: "Macho"
@@ -97,7 +97,7 @@ const cards = [
         id:"8",
         img: im8,
         raza: "Mestizo",
-        color: "Cade oscuro con blanco",
+        color: "Cafe oscuro/blanco",
         edad: "1 año",
         tamano: "Mediano",
         sexo: "Hembra"
@@ -125,16 +125,16 @@ const cards = [
         img: imcat1,
         raza: "Bombay",
         color: "Negro",
-        edad: "1 aÃ±o",
-        tamano: "PequeÃ±o",
+        edad: "1 año",
+        tamano: "Pequeño",
         sexo: "Macho"
     },
     {
         id:"12",
         img: imcat2,
         raza: "American wirehair",
-        color: "Blanco con manchas negras y cafes",
-        edad: "2 aÃ±os",
+        color: "Blanco y cafe",
+        edad: "2 años",
         tamano: "Mediano",
         sexo: "Hembra"
     },
@@ -143,8 +143,8 @@ const cards = [
         img: imcat3,
         raza: "Burmes",
         color: "Cafe claro",
-        edad: "1 aÃ±o",
-        tamano: "PequeÃ±o",
+        edad: "1 año",
+        tamano: "Pequeño",
         sexo: "Macho"
     },
     {
@@ -152,7 +152,7 @@ const cards = [
         img: imcat4,
         raza: "Cymric",
         color: "Negro con blanco",
-        edad: "1 aÃ±o",
+        edad: "1 año",
         tamano: "Grande",
         sexo: "Macho"
     },
@@ -160,17 +160,17 @@ const cards = [
         id:"15",
         img: imcat5,
         raza: "American wirehair",
-        color: "Cafe con manchas blancas y negras",
+        color: "Cafe con manchas",
         edad: "3 meses",
-        tamano: "PequeÃ±o",
+        tamano: "Pequeño",
         sexo: "Hembra"
     },
     {
         id:"16",
         img: imcat6,
         raza: "Ocicat",
-        color: "Plomo con manchas negras",
-        edad: "1 aÃ±o",
+        color: "Plomo con m. negras",
+        edad: "1 año",
         tamano: "Mediano",
         sexo: "Macho"
     },
@@ -178,8 +178,8 @@ const cards = [
         id:"17",
         img: imcat7,
         raza: "Cornish rex",
-        color: "Cade con manchas negras",
-        edad: "4 aÃ±os",
+        color: "Cafe manchado",
+        edad: "4 año",
         tamano: "Mediano",
         sexo: "Macho"
     },
@@ -187,17 +187,17 @@ const cards = [
         id:"18",
         img: imcat8,
         raza: "American wirehair",
-        color: "Cafe oscuro con blanco",
+        color: "Cafe oscuro y blanco",
         edad: "3 meses",
-        tamano: "PequeÃ±o",
+        tamano: "Pequeño",
         sexo: "Hembra"
     },
     {
         id:"19",
         img: imcat9,
         raza: "Selkirk rex",
-        color: "Blanco con manchas negras",
-        edad: "1/2 aÃ±o",
+        color: "Blanco con m. negras",
+        edad: "1/2 años",
         tamano: "Mediano",
         sexo: "Macho"
     }, 
@@ -206,7 +206,7 @@ const cards = [
         img: imcat10,
         raza: "Korat",
         color: "Plomo con cafe",
-        edad: "2 aÃ±os",
+        edad: "2 años",
         tamano: "Grande",
         sexo: "Macho"
     },
@@ -214,8 +214,8 @@ const cards = [
         id:"1",
         img: imot1,
         raza: "Mapuche",
-        color: "Negro con cafe y Negro con blanco",
-        edad: "1 aÃ±o - 8 meses",
+        color: "Negro con cafe",
+        edad: "1 año - 8 meses",
         tamano: "Medianos",
         sexo: "Machos"
     },
@@ -223,8 +223,8 @@ const cards = [
         id:"2",
         img: imot2,
         raza: "Californiano",
-        color: "Blanco con manchas negras y cafes",
-        edad: "2 aÃ±os",
+        color: "Blanco con manchas",
+        edad: "2 años",
         tamano: "Grande",
         sexo: "Macho"
     },
@@ -233,7 +233,7 @@ const cards = [
         img: imot3,
         raza: "Jersey Wooly",
         color: "Plomo",
-        edad: "1 aÃ±o",
+        edad: "1 año",
         tamano: "Mediano",
         sexo: "Macho"
     },
@@ -242,15 +242,15 @@ const cards = [
         img: imot4,
         raza: "Mini rex",
         color: "Blanco con plomo",
-        edad: "1/2 aÃ±o",
-        tamano: "PequeÃ±o",
+        edad: "1/2 años",
+        tamano: "Pequeño",
         sexo: "Hembra"
     },
     {
         id:"5",
         img: imot5,
         raza: "Booted Bantman",
-        color: "Blanco con manchas cafes",
+        color: "Blanco",
         edad: "9 meses",
         tamano: "Grande",
         sexo: "Macho"

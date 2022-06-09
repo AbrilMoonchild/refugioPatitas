@@ -54,7 +54,7 @@ const cards = [
         id:"5",
         img: im5,
         raza: "Pitbull",
-        color: "Blanco con manchas negras",
+        color: "Blanco con m. negras",
         edad: "3 meses",
         tamano: "Pequeño",
         sexo: "Macho"
@@ -81,7 +81,7 @@ const cards = [
         id:"8",
         img: im8,
         raza: "Mestizo",
-        color: "Cade oscuro con blanco",
+        color: "Cafe oscuro/blanco",
         edad: "1 año",
         tamano: "Mediano",
         sexo: "Hembra"
