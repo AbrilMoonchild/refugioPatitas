@@ -19,16 +19,16 @@ const cards = [
         img: imcat1,
         raza: "Bombay",
         color: "Negro",
-        edad: "1 aÃ±o",
-        tamano: "PequeÃ±o",
+        edad: "1 año",
+        tamano: "Pequeño",
         sexo: "Macho"
     },
     {
         id:"12",
         img: imcat2,
         raza: "American wirehair",
-        color: "Blanco con manchas negras y cafes",
-        edad: "2 aÃ±os",
+        color: "Blanco y cafe",
+        edad: "2 años",
         tamano: "Mediano",
         sexo: "Hembra"
     },
@@ -37,8 +37,8 @@ const cards = [
         img: imcat3,
         raza: "Burmes",
         color: "Cafe claro",
-        edad: "1 aÃ±o",
-        tamano: "PequeÃ±o",
+        edad: "1 año",
+        tamano: "Pequeño",
         sexo: "Macho"
     },
     {
@@ -46,7 +46,7 @@ const cards = [
         img: imcat4,
         raza: "Cymric",
         color: "Negro con blanco",
-        edad: "1 aÃ±o",
+        edad: "1 año",
         tamano: "Grande",
         sexo: "Macho"
     },
@@ -54,17 +54,17 @@ const cards = [
         id:"15",
         img: imcat5,
         raza: "American wirehair",
-        color: "Cafe con manchas blancas y negras",
+        color: "Cafe con manchas",
         edad: "3 meses",
-        tamano: "PequeÃ±o",
+        tamano: "Pequeño",
         sexo: "Hembra"
     },
     {
         id:"16",
         img: imcat6,
         raza: "Ocicat",
-        color: "Plomo con manchas negras",
-        edad: "1 aÃ±o",
+        color: "Plomo con m. negras",
+        edad: "1 año",
         tamano: "Mediano",
         sexo: "Macho"
     },
@@ -72,8 +72,8 @@ const cards = [
         id:"17",
         img: imcat7,
         raza: "Cornish rex",
-        color: "Cade con manchas negras",
-        edad: "4 aÃ±os",
+        color: "Cafe manchado",
+        edad: "4 año",
         tamano: "Mediano",
         sexo: "Macho"
     },
@@ -81,17 +81,17 @@ const cards = [
         id:"18",
         img: imcat8,
         raza: "American wirehair",
-        color: "Cafe oscuro con blanco",
+        color: "Cafe oscuro y blanco",
         edad: "3 meses",
-        tamano: "PequeÃ±o",
+        tamano: "Pequeño",
         sexo: "Hembra"
     },
     {
         id:"19",
         img: imcat9,
         raza: "Selkirk rex",
-        color: "Blanco con manchas negras",
-        edad: "1/2 aÃ±o",
+        color: "Blanco con m. negras",
+        edad: "1/2 años",
         tamano: "Mediano",
         sexo: "Macho"
     }, 
@@ -100,7 +100,7 @@ const cards = [
         img: imcat10,
         raza: "Korat",
         color: "Plomo con cafe",
-        edad: "2 aÃ±os",
+        edad: "2 años",
         tamano: "Grande",
         sexo: "Macho"
     }
