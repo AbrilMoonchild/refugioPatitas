@@ -21,8 +21,11 @@ export const Contactanos = () => {
         }
     ]
     return (
+        
         <main className="container">
-            <h9> CONTACTANOS </h9>
+            <div class="container">
+  <p class="text">CONTACTANOS</p>
+</div>
             <div className="gallery">
                 {
                     data.map( ( item, index ) => (
