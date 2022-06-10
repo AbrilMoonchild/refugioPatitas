@@ -118,7 +118,7 @@ function ReqAdop() {
                     <img src={iv} alt=""></img>
                     <div class="contenido-texto-card">
                         <h4>Iver Brayan Huanca Rada</h4>
-                        <p>Excelente trabajo el servicio de adopción, ayudemos a encontrar un hogar para estos seres indefensos, merecen amor y cariño nuestros amigos peluditos.</p>
+                        <p>Excelente trabajo el servicio de adopción, ayudemos a encontrar un hogar para estos seres indefensos que merecen todo nuestro afecto y cariño.</p>
                     </div>
                 </div>
             </div>
