@@ -72,7 +72,7 @@ header .nav-btn{
         background-color: var(--verde);
         transition: 1s;
         transform: translate(-215vh);
-        z-index: 1;
+        z-index: 3;
     }
     nav ul{
         display: flex;

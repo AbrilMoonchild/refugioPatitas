@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Cards.css"
+import {Link}from"react-router-dom"
 
 function Cards({img, raza, color, edad, tamano, sexo}) {
     return (
@@ -15,7 +16,9 @@ function Cards({img, raza, color, edad, tamano, sexo}) {
                 <span>Sexo: {sexo} </span>
             </div>
             <div className='boton-card'>
-                <button>Adopta Aqui</button>
+            <Link to = "/Formulario "><button>Adopta Aqui</button> </Link>
+
+
             </div>
         </div>
     )
