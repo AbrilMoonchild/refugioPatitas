@@ -4,7 +4,7 @@ import '../stylesDonacion/DonaVolunt.css'
 function CardVoluntario() {
   return (
     <div className='contenedordona'>
-      <h1>¿COMO PUEDES AYUDAR?</h1>
+      <h1>¿COMO PUEDO AYUDAR?</h1>
        <br></br> 
         <div className='carddona'>
             <h2>VOLUNTARIADO</h2>
