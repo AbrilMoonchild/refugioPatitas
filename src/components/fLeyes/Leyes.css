@@ -1,36 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .page-title{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 80px;
     padding: 0 2rem;
-    background-color: var(--celeste);
-    
-    
+    background-color: white;   
 }
 
-header div div h1{
-    font-size: 24px;
-    color:var(--textColor);
-    font-weight: 900;
-    text-align: center;
+header div h1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color:black;
+    font-weight: 800;
+    /*text-align: center;*/
 }
 
-header div div div a{
-    font-size: 16px;
-    color:var(--textColor);
-    font-weight: 400;
-    text-align: center;
+.leyes-text{
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
-.cpe> p:nth-child(1){
+.container-ley{
+    border: var(verde);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.title-ley{
+    background-color: #cbf294;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: black;
 }
 
-.cpe> p:nth-child(2){
+.title-ley p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.text-ley{
     font-size: 18px;
     font-weight: 400;
-    color: darkgray;
+    color: dimgray;
+}
+
+.text-ley p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.text-ley #articulo{
+    margin-left: 12px;
+}
+
+.edicion-fecha{
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.e-f-negrilla{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.e-f-text{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.leyes-pdf{
+    display: flex;
+    flex-direction: row;
+    border: var(verde);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 12px;   
+    max-width: 500px;
+}
+
+.pdf-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.botonPdf{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pdfStyle{
+    position: absolute;
+    width: '100%';
+    height: '100%';
 }

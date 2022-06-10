@@ -17,7 +17,7 @@ import imot12 from "../otros/Skinner.jpg"
 
 const cards = [
     {
-        id:"1",
+        id:"201",
         img: imot1,
         raza: "Mapuche",
         color: "Negro con cafe",
@@ -26,7 +26,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"2",
+        id:"202",
         img: imot2,
         raza: "Californiano",
         color: "Blanco con manchas",
@@ -35,7 +35,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"3",
+        id:"203",
         img: imot3,
         raza: "Jersey Wooly",
         color: "Plomo",
@@ -44,7 +44,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"4",
+        id:"204",
         img: imot4,
         raza: "Mini rex",
         color: "Blanco con plomo",
@@ -53,7 +53,7 @@ const cards = [
         sexo: "Hembra"
     },
     {
-        id:"5",
+        id:"205",
         img: imot5,
         raza: "Booted Bantman",
         color: "Blanco",
@@ -62,7 +62,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"6",
+        id:"206",
         img: imot6,
         raza: "Mapuche A",
         color: "Blanco o.negros",
@@ -71,7 +71,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"7",
+        id:"207",
         img: imot7,
         raza: "Californiano",
         color: "Negro manchado",
@@ -80,7 +80,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"8",
+        id:"208",
         img: imot8,
         raza: "Jersey Wooly",
         color: "Crema/Blanco",
@@ -89,7 +89,7 @@ const cards = [
         sexo: "Hembra"
     },
     {
-        id:"9",
+        id:"209",
         img: imot9,
         raza: "Cougla",
         color: "Blanco Jaspeado",
@@ -98,7 +98,7 @@ const cards = [
         sexo: "Hembra"
     },
     {
-        id:"10",
+        id:"210",
         img: imot10,
         raza: "Cobaya",
         color: "marron/blanco",
@@ -107,7 +107,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"11",
+        id:"211",
         img: imot11,
         raza: "Mestizo",
         color: "Blanco",
@@ -116,7 +116,7 @@ const cards = [
         sexo: "Macho"
     },
     {
-        id:"12",
+        id:"212",
         img: imot12,
         raza: "Cobaya",
         color: "Marron con manchas",

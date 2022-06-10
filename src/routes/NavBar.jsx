@@ -12,6 +12,8 @@ import { Refugiados } from '../components/fRefugiados/Refugiados.jsx'
 import { Bodylistca } from '../components/fRefugiados/components/Bodylistca.jsx'
 import { Bodylistot } from '../components/fRefugiados/components/Bodylistot.jsx'
 import {ReqAdop} from '../components/fReqAdop/ReqAdop.jsx'
+import {Formulario} from '../components/fRefugiados/components/Formulario'
+import {Gracias}from "../components/fRefugiados/components/Gracias"
 import '../styles/NavBar.css'
 function NavBar() {
     const navRef = useRef();
@@ -67,6 +69,8 @@ function NavBar() {
         <Routes>
             <Route path='reqadop' element={<ReqAdop></ReqAdop>}></Route>
             <Route path='donacionvoluntariado' element={<DonaVolunt></DonaVolunt>}></Route>
+            <Route path='Formulario' element={<Formulario/>}></Route>
+            <Route path='Gracias' element={<Gracias/>}></Route>
             <Route path='Refugiados' element={<Refugiados/>}></Route>
             <Route path='perritos' element={ <Bodylistpe/> }></Route>
             <Route path='gatitos' element={ <Bodylistca/> }></Route>
@@ -75,6 +79,7 @@ function NavBar() {
             <Route path='contactanos' element={<Contactanos></Contactanos>}></Route>
             <Route path='home' element={<Home></Home>}></Route>
             <Route path='/*' element={<Navigate to='/home' replace></Navigate>}></Route>
+
         </Routes>
     </BrowserRouter>
     

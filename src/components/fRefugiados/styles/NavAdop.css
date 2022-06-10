@@ -6,12 +6,16 @@
     list-style: none;
     width: 100%; height: 50px;
     background-color: rgb(34, 138, 176);
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(255, 255, 255);
 }
 
 .menu-mascotas ul li a{
     text-decoration: none;
     padding: 1% 12.5%;
     color:var(--textColor);
+    font-size: 20px;
 }
 
 .menu-mascotas{
