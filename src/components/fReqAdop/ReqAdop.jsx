@@ -11,6 +11,7 @@ import em7 from './img/im7.jpeg'
 import em8 from './img/im8.jpeg'
 import moy from './img/NICK.jpg'
 import iv from './img/Iver.jpg'
+
 function ReqAdop() {
   return (
     <>
@@ -47,14 +48,14 @@ function ReqAdop() {
                         <img src={em1} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <p>Revisar Historia...</p>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em2} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <p>Revisar Historia...</p>
                         </div>
                     </div>
                     <div class="imagen-port">
@@ -105,7 +106,7 @@ function ReqAdop() {
 
         <section class="clientes contenedor">
             <h2 class="titulo">Comentarios de nuestros clientes</h2>
-            <div class="cards">
+            <div class="carddance">
                 <div class="card">
                     <img src={moy} alt=""></img>
                     <div class="contenido-texto-card">
