@@ -14,6 +14,10 @@ import im9 from "../perros/Socrates.jpg"
 import im10 from "../perros/Thor.jpg"
 import im11 from "../perros/merlina2.jpg"
 import im12 from "../perros/mochi.jpg"
+import im13 from "../perros/Bonka.jpg"
+import im14 from "../perros/Dante.jpg"
+import im15 from "../perros/Roti.jpg"
+import im16 from "../perros/Sugus.jpg"
 
 const cards = [
     {
@@ -56,7 +60,7 @@ const cards = [
         id:"5",
         img: im5,
         raza: "Pitbull",
-        color: "Blanco con m. negras",
+        color: "Blanco m. negras",
         edad: "3 meses",
         tamano: "Pequeño",
         sexo: "Macho"
@@ -92,7 +96,7 @@ const cards = [
         id:"9",
         img: im9,
         raza: "Mestizo",
-        color: "Cafe claro con blanco",
+        color: "Cafe claro/blanco",
         edad: "1/2 año",
         tamano: "Mediano",
         sexo: "Macho"
@@ -111,9 +115,9 @@ const cards = [
         img: im11,
         raza: "Bichon Maltes",
         color: "blanco",
-        edad: "16 años",
+        edad: "2 años",
         tamano: "Pequeño",
-        sexo: "Gay"
+        sexo: "Hembra"
     },
     {
         id:"12",
@@ -122,6 +126,42 @@ const cards = [
         color: "blanco",
         edad: "1 años",
         tamano: "Mediano",
+        sexo: "Macho"
+    },
+    {
+        id:"13",
+        img: im13,
+        raza: "Mestizo",
+        color: "Blanco/Negro",
+        edad: "2 años",
+        tamano: "Grande",
+        sexo: "Macho"
+    },
+    {
+        id:"14",
+        img: im14,
+        raza: "Mestizo",
+        color: "Negro con blanco",
+        edad: "2 años",
+        tamano: "Grande",
+        sexo: "Macho"
+    },
+    {
+        id:"15",
+        img: im15,
+        raza: "Rottweiler",
+        color: "Negro",
+        edad: "2 años",
+        tamano: "Grande",
+        sexo: "Macho"
+    },
+    {
+        id:"16",
+        img: im16,
+        raza: "Pitt Bull",
+        color: "Cafe Claro",
+        edad: "1 1/2 años",
+        tamano: "Grande",
         sexo: "Macho"
     }
 ]
