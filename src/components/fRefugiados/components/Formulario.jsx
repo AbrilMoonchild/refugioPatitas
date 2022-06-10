@@ -4,6 +4,7 @@ import {Link} from "react-router-dom"
 import "../styles/Formulario.css"
 const Formulario = () => {
 	const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
+		
 	return (
 		<>
 			<Formik
@@ -28,6 +29,12 @@ const Formulario = () => {
 						errores.correo = 'El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.'
 					}
 
+					if(!valores.cedula){
+						errores.cedula = 'ingresa solo numeros validos'
+					} else if(!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.cedula)){
+						errores.cedula = ''
+					}
+
 					return errores;
 				}}
 				onSubmit={(valores, {resetForm}) => {
@@ -36,8 +43,12 @@ const Formulario = () => {
 					cambiarFormularioEnviado(true);
 					setTimeout(() => cambiarFormularioEnviado(false), 5000);
 				}}
+				
+		
 			>
+				
 				{( {errors} ) => (
+					
 					<Form className="formulario">
 						<div>
 							<label htmlFor="nombre">Nombre</label>
@@ -45,7 +56,7 @@ const Formulario = () => {
 								type="text" 
 								id="nombre" 
 								name="nombre" 
-								placeholder="John Doe"
+								placeholder="Pon tu Nombre Completo Aqui"
 							/>
 							<ErrorMessage name="nombre" component={() => (<div className="error">{errors.nombre}</div>)} />
 						</div>
@@ -61,14 +72,53 @@ const Formulario = () => {
 						</div>
 
 						<div>
+							<label htmlFor="cedula">Cedula de Identidad</label>
+							<Field
+								type="number" 
+								id="cedula" 
+								name="cedula" 
+								placeholder="coloca el numero de identificacion" 
+							/>
+							<ErrorMessage name="cedula" component={() => (<div className="error">{errors.cedula}</div>)} />
+						</div>
+
+						<div>
+							<label htmlFor="Numero">Numero De Telefono</label>
+							<Field
+								type="number" 
+								id="Numero" 
+								name="Numero" 
+								placeholder="coloca tu Numero De Telefono" 
+							/>
+							<ErrorMessage name="cedula" component={() => (<div className="error">{errors.cedula}</div>)} />
+						</div>
+
+						<div>
+							<label htmlFor="Nombre A.">Nombre Para Tu Nuevo Amigo</label>
+							<Field
+								type="text" 
+								id="Nombre A." 
+								name="Nombre A." 
+								placeholder="Pon El Nombre De Tu nuevo amigo" 
+							/>
+							<ErrorMessage name="Nombre A." component={() => (<div className="error">{errors.correo}</div>)} />
+						</div>
+
+						<div>
 							<Field name="pais" as="select">
-								<option value="mexico">Mexico</option>
-								<option value="España">España</option>
-								<option value="Argentina">Argentina</option>
+								<option value="La Paz">La Paz</option>
+								<option value="Cochabamba">Cochabamba</option>
+								<option value="Tarija">Tarija</option>
+								<option value="Santa Cruz">Santa Cruz</option>
+								<option value="Oruro">Oruro</option>
+								<option value="Potosi">Potosi</option>
+								<option value="Beni">Beni</option>
+								<option value="Pando">Pando</option>
 							</Field>
 						</div>
 
 						<div>
+							<label htmlFor="Nombre A.">Marca Tu Sexo</label>
 							<label>
 								<Field type="radio" name="sexo" value="hombre" /> Hombre
 							</label>
@@ -78,47 +128,12 @@ const Formulario = () => {
 						</div>
 
 						<div>
-							<Field name="mensaje" as="textarea" placeholder="Mensaje" />
+							<Field name="mensaje" as="textarea" placeholder="Dinos tus razones Por las cuales quieres adoptar a tu nuevo amigo" />
 						</div>
 						<Link to = "/Gracias"><button type="submit">Enviar</button></Link>
 						{formularioEnviado && <p className="exito">Formulario enviado con exito!</p>}
 					</Form>
 				)}
-
-
-				{/* {( {values, errors, touched, handleSubmit, handleChange, handleBlur} ) => (
-					<form className="formulario" onSubmit={handleSubmit}>
-						<div>
-							<label htmlFor="nombre">Nombre</label>
-							<input 
-								type="text" 
-								id="nombre" 
-								name="nombre" 
-								placeholder="John Doe" 
-								value={values.nombre}
-								onChange={handleChange}
-								onBlur={handleBlur}
-							/>
-
-							{touched.nombre && errors.nombre && <div className="error">{errors.nombre}</div>}
-						</div>
-						<div>
-							<label htmlFor="correo">Correo</label>
-							<input 
-								type="text" 
-								id="correo" 
-								name="correo" 
-								placeholder="correo@correo.com" 
-								value={values.correo}
-								onChange={handleChange}
-								onBlur={handleBlur}
-							/>
-							{touched.correo && errors.correo && <div className="error">{errors.correo}</div>}
-						</div>
-						<button type="submit">Enviar</button>
-						{formularioEnviado && <p className="exito">Formulario enviado con exito!</p>}
-					</form>
-				)} */}
 			</Formik>
 		</>
 	);
