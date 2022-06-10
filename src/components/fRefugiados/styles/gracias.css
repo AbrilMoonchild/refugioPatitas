@@ -1,3 +1,10 @@
 .t-als{
+    margin-top: 55px;
     text-align: center;
+    font-size: 50px;
+}
+.t-als h2{
+    font-size: 50px;
+    color: brown;
+    align-items: center;
 }
