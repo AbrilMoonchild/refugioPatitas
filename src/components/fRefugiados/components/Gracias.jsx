@@ -12,7 +12,6 @@ function Gracias() {
 
     <div className="t-als">
       <div className="backg">
-        <img  src= {Background} alt="" />
       <h1 className="t-als">su peticion de adopcion va ser procesada</h1>
         <div className="imagen">
              <img src= {Pata} alt="" />
