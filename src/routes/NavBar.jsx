@@ -1,4 +1,6 @@
-import * as React from 'react'
+
+import React from 'react'
+
 import {useRef} from 'react'
 import {BrowserRouter,Routes,Route,NavLink, Navigate} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
