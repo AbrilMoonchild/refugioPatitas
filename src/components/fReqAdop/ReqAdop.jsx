@@ -1,5 +1,6 @@
 import React from 'react'
 import './ReqAdop.css'
+import {Link}from"react-router-dom"
 import em from './img/secig.jpg'
 import em1 from './img/im1.jpeg'
 import em2 from './img/im2.jpeg'
@@ -48,56 +49,56 @@ function ReqAdop() {
                         <img src={em1} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Revisar Historia...</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em2} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Revisar Historia...</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em3} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em4} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em5} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em6} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em7} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src={em8} alt=""></img>
                         <div class="hover-galeria">
                             <img src="img/icono1.png" alt=""></img>
-                            <p>Nuestro trabajo</p>
+                            <Link to = "/Refugiados "><button>Nuestro trabajo</button> </Link>
                         </div>
                     </div>
                 </div>
