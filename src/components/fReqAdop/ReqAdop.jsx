@@ -12,6 +12,8 @@ import em7 from './img/im7.jpeg'
 import em8 from './img/im8.jpeg'
 import moy from './img/NICK.jpg'
 import iv from './img/Iver.jpg'
+import alv from './img/ALV.jpeg'
+import loh from './img/BAP.jpeg'
 
 function ReqAdop() {
   return (
@@ -123,10 +125,24 @@ function ReqAdop() {
                     </div>
                 </div>
             </div>
-        </section>
-  
+            <div class="carddance">
+                <div class="card">
+                    <img src={alv} alt=""></img>
+                    <div class="contenido-texto-card">
+                        <h4>Álvaro Jauregui Rivera</h4>
+                        <p>Los animales son los amigos más fieles que se pueden tener, excelente trabajo de refugio patitas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src={loh} alt=""></img>
+                    <div class="contenido-texto-card">
+                        <h4>Roger Bautista Tauca</h4>
+                        <p>Mil gracias a todas las personas colaboradoras de esta institución por ayudar a estos angelitos sin alas.</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
     </>
   )
 }
-
 export {ReqAdop}

@@ -199,8 +199,9 @@ main .sobre-nosotros{
 }
 
 .carddance .card img{
-    width: 100px;
-    height: 100px;
+    margin: inherit;
+    width: 95px;
+    height: 95px;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
@@ -208,7 +209,7 @@ main .sobre-nosotros{
 }       
 
 .carddance .card > .contenido-texto-card{
-    width: 60%;
+    width: 50%;
     color: rgb(255, 255, 255);
 }
 
@@ -271,26 +272,6 @@ main .sobre-nosotros{
     .carddance .card:first-child{
         margin-bottom: 30px;
     }
-
-    /* servicios */
-
-    .servicio-cont{
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .servicio-ind{
-        width: 100%;
-        text-align: center;
-    }
-
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
-        margin-bottom: 60px;
-    }
-
-    .servicio-ind img{
-        width: 90%;
-    }
 }
 
 @media screen and (max-width:500px){
@@ -338,8 +319,9 @@ main .sobre-nosotros{
     }
 
     .carddance .card img{
-        width: 90px;
-        height: 90px;
+        margin: initial;
+        width: 95px;
+        height: 95px;
     }
 }
 .contenedor-sobre-nosotros{
