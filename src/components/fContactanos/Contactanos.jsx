@@ -1,50 +1,39 @@
-import React from 'react'
-import '../fContactanos/contactanos.css'
-import'../fContactanos/icon/facebook.png'
-function Contactanos() {
-  return (
-    <>
-    <div>
-    <div className='contenedor-titulo'>
-    <h1>CONTACTOS</h1>
-   
-    <h2>"Nos puedes contactar por nuestras redes sociales , o visitando nuestro establecimiento"</h2>
-   
-    </div>
-    </div>
+import React from 'react';
+import { Card } from './Card';
+import { ContactForm } from './ContactForm';
 
-    <div className='contenedor-casa'>
-      <div>
-        <h2>Dirección Casa Matriz:</h2>
-        <p>Escuela militar de ingenieria , Calle 2 de irpavi(LADO MEGACENTER)</p>
-      </div>
-      <div>
-        <h2>Telefono:</h2>
-        <p>2724850/ Fax : 2724952</p>
-      </div>
-      <div>
-        <h2>WhatsAp</h2>
-        <p>Cel: 70150215</p>
-        <p>Cel: 76526738</p>
-      </div>
-      <div>
-        <h2>Facebook</h2>
-        <p>Pagina Oficial: Refugio Patitas</p>
-      </div>
-      <div>
-        <h2>Instagram</h2>
-        <p>Refugio Patias 1_0_EMI</p>
-      </div>
-    </div>
+import './contactanos.css';
 
-    <div className='contenedor-logos'>
-      <div>
-        <img src='/src/components/fContactanos/icon/facebook.png' alt="Foto Facebook"></img>
-
-      </div>
-      </div>
-      
-  </>)  }
-      
-
-export {Contactanos}
+export const Contactanos = () => {
+    const data = [
+        {
+            info1: "Patitas Amigas",
+            info2: "    Irpavi, Calle 2(EMI)",
+            info3: "La Paz, Zona sur",
+        }, {
+            info1: "Teléfono",
+            info2: "70150215(WhatsApp.)",
+            info3: "69719895(Contacto)",
+        }, {
+            info1: "Correo",
+            info2: "patitasAmigas@refugio.com.bo",
+            info3: "Al cuidado de tus mascotas"
+        }
+    ]
+    return (
+        <main className="container">
+            <h9> CONTACTANOS </h9>
+            <div className="gallery">
+                {
+                    data.map( ( item, index ) => (
+                        <Card key={ index } { ...item } />
+                    ))
+                }
+            </div>
+            <ContactForm />
+            <div className="map">
+                <img src="https://i.imgur.com/ARekREH.png" />
+            </div>
+        </main>
+    );
+};
