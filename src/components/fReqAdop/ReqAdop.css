@@ -200,6 +200,20 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(111, 192, 182, 0.5),rgb(84, 174, 159));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
 @media screen and (max-width:900px){
     header{
         background-position: center;
