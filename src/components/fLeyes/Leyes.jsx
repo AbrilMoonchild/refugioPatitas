@@ -141,10 +141,9 @@ function Leyes() {
             <p>Ley Municipal Autonómica N° 239</p>
             <p>Gobierno Autónomo Municipal de La Paz</p>
             <p>Descarga el archivo en PDF</p>
-            <div>
-              <object data='../docsLeyes/Ley_Municipal_293-1.pdf' type='application/pdf' width='100%' height='100%'>
-              --este no sirve-
-              </object>
+            <div className='botonPdf'>
+              <br/>
+              <a href='./pagesLeyes/Pdf' target="_blank"><button>Aqui</button></a>
             </div>
             <p></p>
           </div>

@@ -1,12 +1,13 @@
 import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
 import React, { Component } from "react";
+import '../Leyes.css';
 
 class Pdf extends Component{
     render(){
         return(
-            <div>
+            <div className="pdfStyle">
                 <object
-                    data={toBeRequired('./docsLeyes/Ley_Municipal_239-1.pdf')}
+                    data={toBeRequired('../docsLeyes/Ley_Municipal_239.pdf')}
                     type="application/pdf"
                     width="100%"
                     height="100%"
@@ -17,3 +18,5 @@ class Pdf extends Component{
         );
     }
 }
+
+export {Pdf};
