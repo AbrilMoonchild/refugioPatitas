@@ -1,0 +1,12 @@
+.imagen img{
+    margin-top: 10px;
+    justify-content: center;
+    image-rendering: crisp-edges;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.backg{
+    background-image: none;
+    border-radius: 50%;
+}

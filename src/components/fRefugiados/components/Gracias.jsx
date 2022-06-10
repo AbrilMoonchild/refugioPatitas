@@ -1,6 +1,8 @@
-
 import React from "react";
 import Pata from "../otros/Gracias.png"
+import Background from "../otros/back.jpg"
+import "../styles/imagg.css"
+import "../styles/gracias.css"
 
 
 
@@ -8,11 +10,17 @@ function Gracias() {
 
   return (
 
-    <div className="Gracias">
-        <p>su peticion de adopcion va ser procesada  </p>
-        <p>Gracias por darle un nuevo hogar a tu nuevo compañero </p>
-        <img src= {Pata} alt="" />
+    <div className="t-als">
+      <div className="backg">
+      <h1 className="t-als">su peticion de adopcion va ser procesada</h1>
+        <div className="imagen">
+             <img src= {Pata} alt="" />
         </div> 
+        <h2>Gracias por darle un nuevo hogar a tu nuevo compañero </h2> 
+    </div> 
+      </div>
+      
+      
 
   )
 
