@@ -130,14 +130,14 @@ function ReqAdop() {
                     <img src={alv} alt=""></img>
                     <div class="contenido-texto-card">
                         <h4>Álvaro Jauregui Rivera</h4>
-                        <p>Los animales son los amigos más fieles que se pueden tener, excelente trabajo de refugio patitas.</p>
+                        <p>Los animales son los amigos más fieles que se pueden tener, excelente trabajo el que realiza refugio patitas....</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src={loh} alt=""></img>
                     <div class="contenido-texto-card">
                         <h4>Roger Bautista Tauca</h4>
-                        <p>Mil gracias a todas las personas colaboradoras de esta institución por ayudar a estos angelitos sin alas.</p>
+                        <p>Mil gracias a todas las personas colaboradoras de esta institución por ayudar a estos angelitos sin alas, merecen un aplauso.</p>
                     </div>
                 </div>
             </div>
