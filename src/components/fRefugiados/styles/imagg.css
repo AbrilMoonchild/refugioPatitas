@@ -1,5 +1,6 @@
 .imagen img{
-    margin-top: 10px;
+    margin-top: 0px;
+    height: 300px;
     justify-content: center;
     image-rendering: crisp-edges;
     border-style: solid;
@@ -7,6 +8,7 @@
     border-radius: 50%;
 }
 .backg{
-    background-image: none;
-    border-radius: 50%;
+    
+    height: 800px;
+    background: linear-gradient(to right, hsla(43, 25%, 89%, 0), hsla(16, 83%, 60%, 0.616)), url(img/images.jpg);
 }
